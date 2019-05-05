@@ -70,7 +70,7 @@ class Game implements Serializable {
         String movement;
         Scanner keyboard = new Scanner(System.in);
 
-        //1. show map  
+        //1.show map
         currentMap.showMap(hero.currentTile, this);
 
         //2.ask movement
